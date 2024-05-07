@@ -1,9 +1,8 @@
 dropmenu = document.getElementsByClassName("dropdown-menu");
 dropdown = document.getElementsByClassName("nav-link");
-
+cos=document.getElementById("image");
 let coord = dropdown[0].getBoundingClientRect();
 
-// Mover el segundo elemento 100 píxeles más hacia abajo
 let desplazamientoVertical = 100;
 coord.top = coord.top + desplazamientoVertical;
 
@@ -12,4 +11,13 @@ drop.style.position = "absolute";
 drop.style.top = coord.top + "px";
 drop.style.left = coord.left + "px";
 
-console.log(coord);
+window.onscroll = function() { getSmaller(); };
+
+function getSmaller(){
+    if(window.pageYOffset>1){
+        cos.classList.add("small");
+    }
+    else{
+        cos.classList.remove("small");
+    }
+}
