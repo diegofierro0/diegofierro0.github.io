@@ -4,4 +4,4 @@ Fierro Gill Diego Guadalupe
 pagina  https://jwjlight.mx
 
 
-![Amazon](jwj.JPG)
+![JwJ light](jwj.JPG)
