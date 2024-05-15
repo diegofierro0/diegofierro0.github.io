@@ -11,11 +11,10 @@
 }
 
 .imgprinci{
-    margin-left: 3em;
+    margin-left: 40px;
     margin-top: 0.7em;
     margin-bottom: 0.7em;
-    width: 19em;
-    height: 8em;
+    width: 250px;
     transition-duration: 0.4s;
 }
 
@@ -29,9 +28,15 @@ p{
     justify-content: space-evenly;
 }
 
+.cent2{
+    display: flex;
+    margin-top: 8em;
+    justify-content: center;
+}
+
 #caru{
     width: 100%;
-    height: 75em;
+    height: 1000px;
 }
 
 #bienvecla{
@@ -39,13 +44,16 @@ p{
     font-size: 4.5em;
 }
 
+.caruimg{
+    width: 50%;
+    height: 200px;
+}
+
 
 
 .imgprinci.small{
     margin-top: 0;
-    height: 10em;
-    width: 10em;
-    height: 4em;
+    width: 100px;
     margin-bottom: 0;
 }
 
@@ -56,6 +64,7 @@ p{
     font-size: 1.6em;
     color: white;
     margin-right: 1.5em;
+    margin-top: 10px;
 }
 
 .catabuton{
@@ -65,4 +74,19 @@ p{
     width: 67% ;
     border-radius: 2em;
     background-color: #d3d3d3;
+}
+
+.imgfoo{
+    width: 60px;
+    height: 60px;
+}
+
+#barr1{
+    transition-duration: 0.5s;
+    width: 0px;
+    background-color: #7bc24d;
+}
+
+#most1:hover #barr1{
+    width: 70%;
 }

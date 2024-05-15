@@ -3,8 +3,7 @@ dropdown = document.getElementsByClassName("nav-link");
 cos=document.getElementById("image");
 let coord = dropdown[0].getBoundingClientRect();
 
-let desplazamientoVertical = 100;
-coord.top = coord.top + desplazamientoVertical;
+coord.top = coord.top + 100;
 
 drop = dropmenu[0];
 drop.style.position = "absolute";
