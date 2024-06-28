@@ -69,7 +69,7 @@
         <div class="container">
             <div class="row mt-2">
                 <div class="col">
-                    <h3 class="card" style="color: rgb(0, 0, 0); border: 1px solid rgb(255, 240, 227); border-radius: 5px; background-color: rgb(255, 240, 227);"SELECT asignatura.nombre AS nombre_asignatura, COUNT(matricula.idAlumno) AS total_alumnos_inscritos FROM asignatura INNER JOIN matricula ON asignatura.idAsignatura = matricula.idAsignatura GROUP BY asignatura.idAsignatura ORDER BY total_alumnos_inscritos DESC</h3>
+                    <h3 class="card" style="color: rgb(0, 0, 0); border: 1px solid rgb(255, 240, 227); border-radius: 5px; background-color: rgb(255, 240, 227);">SELECT asignatura.nombre AS nombre_asignatura, COUNT(matricula.idAlumno) AS total_alumnos_inscritos FROM asignatura INNER JOIN matricula ON asignatura.idAsignatura = matricula.idAsignatura GROUP BY asignatura.idAsignatura ORDER BY total_alumnos_inscritos DESC</h3>
                     <p>MOSTRAR LA ASIGNATURA QUE TIENE MAS ALUMNOS INSCRITOS Y SU TOTAL</p>
                     <img src="consulta7.png" alt="" class="img-fluid" width="500px"> 
                 </div>
